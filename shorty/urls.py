@@ -16,9 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from shorter.views import make, home
+from shorter.models import Short_Url
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('<str:token>', home, name='home'),
+    path('<str:token>/<int:copy>', home, name='copy'),
     path('', make, name='make'),
 ]
