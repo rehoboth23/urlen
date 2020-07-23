@@ -67,15 +67,15 @@
         </div>
 
 
-          {% if a %}
+        {% if a %}
                <form class="form-inline">
                   <div class="input-group">
                     <div class="input-group-prepend">
                       <span class="input-group-text" id="basic-addon1">Shortened URL:</span>
                     </div>
-                    <input d="shortUrl" type="text" class="form-control" aria-label="Large" value = "localhost:8000/shorten/{{a.short_url}}" aria-describedby="inputGroup-sizing-sm">
+                    <input id="shortUrla" type="text" class="form-control" aria-label="Large" value = "localhost:8000/shorten/{{a.short_url}}" aria-describedby="inputGroup-sizing-sm">
                   </div>
-                    <button id="copyBtn" class="btn btn-outline-primary" type="button"><i class="fa fa-copy"></i>Copy</button>
+                    <button id="copyBtna" class="btn btn-outline-primary" type="button"><i class="fa fa-copy"></i>Copy</button>
                 </form>
               {% endif %}
               {% if b %}
@@ -84,9 +84,9 @@
                   <div class="input-group-prepend">
                     <span class="input-group-text" id="basic-addon1">Shortened URL:</span>
                   </div>
-                  <input id="shortUrl" type="text" class="form-control" aria-label="Large" value = "localhost:8000/shorten/{{b.short_url}}" aria-describedby="inputGroup-sizing-sm">
+                  <input id="shortUrlb" type="text" class="form-control" aria-label="Large" value = "localhost:8000/shorten/{{b.short_url}}" aria-describedby="inputGroup-sizing-sm">
                 </div>
-                  <button id="copyBtn" class="btn btn-outline-primary" type="button"><i class="fa fa-copy"></i> Copy</button>
+                  <button id="copyBtnb" class="btn btn-outline-primary" type="button"><i class="fa fa-copy"></i> Copy</button>
               </form>
           {% endif %}
       </div>
