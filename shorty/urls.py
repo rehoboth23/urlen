@@ -14,13 +14,9 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
-from shorter.views import make, home
-from shorter.models import Short_Url
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('<str:token>', home, name='home'),
-    path('<str:token>/<int:copy>', home, name='copy'),
-    path('', make, name='make'),
+    path('', include('shorter.urls')),
 ]

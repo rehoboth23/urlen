@@ -1,0 +1,138 @@
+/*classes*/
+body {
+  background-color: #f4f6ff;
+  margin-top: 0;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: #888888;
+  font-weight: lighter;
+  padding-bottom: -50px;
+}
+
+#about {
+  background-color: white;
+  padding: 0 7% 0 7%;
+  text-align: center;
+}
+
+#body-top {
+  padding: 0 7% 0 7%;
+}
+
+#contact-us {
+  padding: 0 7% 0 7%;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+#resources {
+  padding: 0 7% 0 7%;
+  background-color: #3f3f44;
+  text-align: center;
+}
+
+.about-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: lighter;
+  text-align: center;
+  padding-bottom: 125px;
+  margin-bottom: 50px;
+}
+
+.btn {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-new {
+  position: absolute;
+  bottom: 38px;
+  left: 660px;
+  z-index: 1;
+}
+
+.contact {
+  padding-bottom: 25px;
+  font-size: 1rem;
+}
+
+.container-fluid {
+  padding: 0 4.5% 7.5% 4.5%;
+}
+
+.heading-text {
+  font-family: 'Oleo Script', cursive;
+  font-size: 4.5rem;
+  padding-top: 125px;
+  text-align: left;
+}
+
+.img-prof {
+  width: 200px;
+  height: 200px;
+  padding-bottom: 10px;
+}
+
+.form-inline .input-group {
+  width: 80%;
+}
+
+.input-grp {
+  margin: 5% auto 2% auto;
+  width: 60%;
+  padding-bottom: 5%;
+}
+
+.fixed-top {
+  padding: 0 4.5% 0 4.5%;
+}
+
+.major-img {
+  width: 125%;
+  height: auto;
+  margin-top: -100px;
+}
+
+.navbar {
+  opacity: 1;
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-family: 'Bitter', serif;
+  font-size: 2.5rem;
+  margin-left: -18px;
+  margin-top: -28px;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  margin: 0 2rem 0 2rem;
+  font-size: 1.2rem;
+  margin-top: -28px;
+}
+
+.output {
+  margin: 0 0 15px 0;
+}
+
+.res-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size:3rem;
+  color: white;
+  text-align: center;
+  padding-top: 5%
+}
+
+.team {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 50px 0 50px 0;
+}
