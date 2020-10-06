@@ -9,6 +9,10 @@ It uses a two part model base coupled with One to One relationship and an SQLite
 **mkdir** src    
 **cd** src  
 **git** clone [this repository link]
-**pip** install django
-**python** manage.py makemigrations
-**python** manage.py migrate
+**pip** install django  
+**python manage.py makemigrations**  
+**python manage.py migrate**   
+  
+
+# Test Server
+**python manage.py runsevrer**
